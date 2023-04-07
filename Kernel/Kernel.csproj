@@ -4,7 +4,30 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>afrikancoder-shared</PackageId>
+    <Title>afrikancoder-shared-kernel</Title>
+    <Version>1.0.0</Version>
+    <Authors>ken.fukizi</Authors>
+    <Company>AfrikanCoder LLC</Company>
+    <Product>Kernel</Product>
+    <Description>Functionality shared across bounded contexts in the AfrikanCoder project</Description>
+    <Copyright>MIT license</Copyright>
+    <PackageProjectUrl>https://afrikancoder.co.za</PackageProjectUrl>
+    <PackageIcon>favicon-32x32-tp.png</PackageIcon>
+    <RepositoryUrl>https://github.com/AfrikanCoder-LLC/AC.SharedKernel.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>For AfrikanCoder LLC internal use</PackageReleaseNotes>
+    <PackageOutputPath>bin\Debug\</PackageOutputPath>
+    <AnalysisLevel>none</AnalysisLevel>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Users\KennethF\Documents\AfrikanCoder\favicon-32x32-tp.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MediatR" Version="12.0.1" />

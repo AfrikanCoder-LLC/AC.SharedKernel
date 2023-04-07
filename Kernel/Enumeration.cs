@@ -7,7 +7,7 @@ namespace Kernel
     {
         protected Enumeration(int id, string displayName) 
         { 
-            Id = id;
+            base.Id = id;
             DisplayName = displayName;
         }
         protected Enumeration()
